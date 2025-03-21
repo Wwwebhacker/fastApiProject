@@ -1,6 +1,6 @@
 from cachetools import TTLCache
 from typing import List
-from models.models import Post
+from models.post import Post
 
 posts_cache = TTLCache(maxsize=100, ttl=300)
 

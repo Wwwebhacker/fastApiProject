@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
 from datetime import datetime, timedelta
 import jwt
-from models.models import User
-from models.models import Post
+from models.user import User
+from models.post import Post
 from schemas.user import UserCreate
 from schemas.post import PostCreate
 

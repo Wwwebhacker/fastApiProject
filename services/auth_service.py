@@ -1,9 +1,9 @@
 from sqlalchemy.orm import Session
 from datetime import datetime, timedelta, timezone
 import jwt
-from models.models import Post
+from models.post import Post
 
-from models.models import User
+from models.user import User
 from schemas.user import UserCreate
 from schemas.post import PostCreate
 import hashlib
